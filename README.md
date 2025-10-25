@@ -66,7 +66,7 @@ sudo apt install poppler-utils
 ### 1. Clone or Download the Project
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/szentesik/chunk_unstructured.git
 cd chunk_unstructured
 ```
 
@@ -100,8 +100,9 @@ This will install all required packages including:
 - `pytesseract` - Python wrapper for Tesseract
 - `tesseract` - Tesseract OCR engine
 - `poppler-utils` - Poppler utilities
-- `huggingface_hub[hf_xet]` - Hugging Face Hub with extended features
-- `python-dotenv` - Environment variable management
+- `huggingface_hub[hf_xet]` - Hugging Face Hub Xet Storage support
+- `tiktoken` - Fast BPE tokenizer for OpenAI models
+- `python-dotenv` - Load environment from .env files
 
 ## Usage
 
@@ -174,6 +175,7 @@ chunk_unstructured/
 - `tesseract>=0.1.3` - Tesseract OCR engine
 - `poppler-utils>=0.1.0` - Poppler utilities
 - `huggingface_hub[hf_xet]>=0.36.0` - Hugging Face Hub Xet Storage support
+- `tiktoken>=0.8.0` - Fast BPE tokenizer for OpenAI models (for token count estimation)
 - `python-dotenv>=1.1.1` - Load environment from .env files
 
 ### System Requirements
