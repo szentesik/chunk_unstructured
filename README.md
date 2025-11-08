@@ -184,14 +184,6 @@ chunk_unstructured/
 - Poppler (system installation)
 - Sufficient RAM for image processing (recommended: 4GB+)
 
-## License
-
-[Add your license information here]
-
-## Contributing
-
-[Add contribution guidelines here]
-
 ## Support
 
 For issues and questions:

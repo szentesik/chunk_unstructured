@@ -105,7 +105,7 @@ if __name__ == "__main__":
 
     data_folder = "../data"
 
-    print(f"⚠️ This scripts uploads all recipes from {data_folder} to embedding database!")
+    print(f"⚠️ This scripts uploads all pdf documents from {data_folder} to embedding database!")
     confirmation = input("❓ Do you want to continue? (y/N): ").strip().lower()
     if confirmation != 'y': quit()
     
